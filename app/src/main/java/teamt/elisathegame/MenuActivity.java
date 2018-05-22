@@ -14,6 +14,6 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     protected void onClick(View view){
-        startActivity(new Intent("teamt.elisathegame.GameActivity"));
+        startActivity(new Intent(getApplicationContext(), GameActivity.class));
     }
 }
