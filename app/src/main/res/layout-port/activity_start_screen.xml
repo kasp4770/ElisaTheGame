@@ -6,16 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".StartScreen">
 
-    <ImageView
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:cropToPadding="true"
-        android:src="@drawable/elisalogo3_02"
-        android:scaleType="fitXY"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="269dp"
+            android:layout_marginBottom="558dp"
+            android:layout_marginTop="558dp"
+            android:cropToPadding="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/elisalogotransparent_03_04"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
 
 
 </android.support.constraint.ConstraintLayout>

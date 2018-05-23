@@ -9,7 +9,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/elisalogo3_02"
+            android:src="@drawable/elisalogotransparent_03_04"
             />
 
 </RelativeLayout>
