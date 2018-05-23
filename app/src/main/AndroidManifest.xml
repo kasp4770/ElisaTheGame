@@ -11,7 +11,8 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".StartScreen"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/ElisaAppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,9 +21,10 @@
         </activity>
         <activity android:name=".MenuActivity"
             android:screenOrientation="portrait"
-        />
+            android:theme="@style/ElisaAppTheme" />
         <activity android:name=".GameActivity"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/ElisaAppTheme">
         </activity>
     </application>
 
