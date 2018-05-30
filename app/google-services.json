@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "465824519923-n7hhlupme5qf24drvs3a23ac8bn3nkn3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "teamt.elisathegame",
+            "certificate_hash": "18bffcce760d91e354bc5ac7c8f53bb12ebe97ae"
+          }
+        },
+        {
           "client_id": "465824519923-h2btchjv90030jnr0ocqriqvv27ct8he.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
