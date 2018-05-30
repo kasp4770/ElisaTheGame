@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "465824519923",
+    "firebase_url": "https://elisathegame.firebaseio.com",
+    "project_id": "elisathegame",
+    "storage_bucket": "elisathegame.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465824519923:android:f7d8493679912ea9",
+        "android_client_info": {
+          "package_name": "teamt.elisathegame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465824519923-ii7ghvdref9g98je8cvdue2vhh696po7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "teamt.elisathegame",
+            "certificate_hash": "a414a33587de1b3dd0e1f9dc17c00e280c6e435b"
+          }
+        },
+        {
+          "client_id": "465824519923-k5r54is5ga21hgibflgrc00vu76un017.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "465824519923-k5r54is5ga21hgibflgrc00vu76un017.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdwH_OQGOvnKQeVyDgXzATXSH2cHiA6Q8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465824519923-k5r54is5ga21hgibflgrc00vu76un017.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
