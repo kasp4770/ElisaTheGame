@@ -1,4 +1,4 @@
-package teamt.elisathegame;
+package teamt.elisathegame.bussinesslogic;
 
 import java.util.Random;
 

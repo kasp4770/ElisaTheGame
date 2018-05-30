@@ -2,8 +2,9 @@ package teamt.elisathegame;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.CheckBox;
+
+import teamt.elisathegame.bussinesslogic.RandomOpgave;
 
 public class GameActivity extends AppCompatActivity {
 
