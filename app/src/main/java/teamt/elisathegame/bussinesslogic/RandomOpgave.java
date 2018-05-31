@@ -24,14 +24,24 @@ public class RandomOpgave {
         // now the methods that we are gonna use are one random method to find a random question taking referance from our AmountOfTotalQuestionsInDatabase variable
         // and we are gonna use slightly more complicated get method for the questionControlVariableHolder value since it is not gonna be stored here
 
+        //since the database reference methods are not made yet i have to just make a placeholder
+        public int loadTotalQuestionAmountInDatabase(){
+            int DBQuestionAmountHolder;
+
+            //here i will eventually replace this code with the actual reference code
+            DBQuestionAmountHolder = 17;
+            amountOfTotalQuestionsInDatabase = DBQuestionAmountHolder;
+
+            return DBQuestionAmountHolder;
+        }
+
         //this is the random method that will find our random question
-        public String findRandomQuestion( String DBQuestionReferenceHolder, int amountOfTotalQuestionsInDatabaseHolder) {
+        public String findRandomQuestion(int amountOfTotalQuestionsInDatabaseHolder) {
 
             //for good measure ill load our value into a local holder first for both values
             int TotalQuestionsHolder = amountOfTotalQuestionsInDatabaseHolder;
             int controlVarHolder = 9999999;
             amountOfTotalQuestionsInDatabase = amountOfTotalQuestionsInDatabaseHolder;
-            DBQuestionReference = DBQuestionReferenceHolder;
 
 
             //here i use the previous value to find a random question to put into our control variable
