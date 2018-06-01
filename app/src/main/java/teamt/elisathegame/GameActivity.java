@@ -20,7 +20,7 @@ public class GameActivity extends AppCompatActivity {
         //right here test to see if the checkbox call works properly
         RandomOpgave randomOpgave = new RandomOpgave();
         CheckBox anwserOption_1 = findViewById(R.id.checkBox4);
-        anwserOption_1.setText(randomOpgave.findRandomQuestion("Question_", 15));
+        anwserOption_1.setText(randomOpgave.findRandomQuestion( 15));
 
     }
 }
