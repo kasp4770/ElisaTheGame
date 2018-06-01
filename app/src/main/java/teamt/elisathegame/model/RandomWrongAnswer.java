@@ -1,4 +1,4 @@
-package teamt.elisathegame.bussinesslogic;
+package teamt.elisathegame.model;
 
 /*
 This purpose of this class is to randomly select a wrong answer from our database and to repeat this process
