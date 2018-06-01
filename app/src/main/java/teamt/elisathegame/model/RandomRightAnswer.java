@@ -1,4 +1,4 @@
-package teamt.elisathegame.bussinesslogic;
+package teamt.elisathegame.model;
 
 /*
 * This class has the task to get one random right answer from the database

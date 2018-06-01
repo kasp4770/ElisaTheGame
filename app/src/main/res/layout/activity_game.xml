@@ -229,6 +229,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:editable="true"
             android:ems="10"
             android:inputType="textMultiLine"
             android:text="this will display the text of the randomly selected question"

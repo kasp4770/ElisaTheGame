@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.CheckBox;
 
-import teamt.elisathegame.bussinesslogic.RandomOpgave;
+import teamt.elisathegame.model.RandomOpgave;
 
 public class GameActivity extends AppCompatActivity {
 
@@ -20,7 +20,7 @@ public class GameActivity extends AppCompatActivity {
         //right here test to see if the checkbox call works properly
         RandomOpgave randomOpgave = new RandomOpgave();
         CheckBox anwserOption_1 = findViewById(R.id.checkBox4);
-        anwserOption_1.setText(randomOpgave.findRandomQuestion("Question_", 15));
+        anwserOption_1.setText(randomOpgave.findRandomQuestion( 15));
 
     }
 }
