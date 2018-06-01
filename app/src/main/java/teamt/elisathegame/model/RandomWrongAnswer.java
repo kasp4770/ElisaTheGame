@@ -1,4 +1,4 @@
-package teamt.elisathegame.bussinesslogic;
+package teamt.elisathegame.model;
 
 import com.google.android.gms.common.internal.StringResourceValueReader;
 

@@ -1,4 +1,4 @@
-package teamt.elisathegame.bussinesslogic;
+package teamt.elisathegame.model;
 
 //this classe will control all the trafic that goes from our back-end to our front-end, there is an agument to be made about wether we should split this responsability out
 //in multiple classes aswell but out team dicided against that idea since our program is fairly simple

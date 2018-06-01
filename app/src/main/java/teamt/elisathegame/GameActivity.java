@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.CheckBox;
 
-import teamt.elisathegame.bussinesslogic.RandomOpgave;
+import teamt.elisathegame.model.RandomOpgave;
 
 public class GameActivity extends AppCompatActivity {
 

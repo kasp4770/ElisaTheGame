@@ -1,4 +1,4 @@
-package teamt.elisathegame.bussinesslogic;
+package teamt.elisathegame.model;
 
 import java.util.Random;
         /*
@@ -11,17 +11,17 @@ public class RandomOpgave {
 
         //her er de variabler som er nødvendige for at få det her til at virke
 
-        //this is for use in the random method to find a random question in our intire DB
+        //this is for use in the random method to find a random question in our entire DB
         //here we will put the reference code for the DB
         private int amountOfTotalQuestionsInDatabase = 17;
 
-        //this will be the control variable for the program to make sure there is alway talking about the same
+        //this will be the control variable for the program to make sure there is always talking about the same
         private int questionControlVariableHolder = 99999999;
 
         //we need a variable that can hold all of this in a string so we can use it in firebase
         private String DBQuestionReference = "Question_";
 
-        // now the methods that we are gonna use are one random method to find a random question taking referance from our AmountOfTotalQuestionsInDatabase variable
+        // now the methods that we are gonna use are one random method to find a random question taking reference from our AmountOfTotalQuestionsInDatabase variable
         // and we are gonna use slightly more complicated get method for the questionControlVariableHolder value since it is not gonna be stored here
 
         //since the database reference methods are not made yet i have to just make a placeholder
