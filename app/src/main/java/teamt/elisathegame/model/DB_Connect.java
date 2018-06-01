@@ -51,7 +51,7 @@ public class DB_Connect {
 
     //Metode til at finde Mængden af rigtgie svar
     //Child-nodes = Question_ + nummer, rightAnswers og amountOfRightAnswers
-    public DatabaseReference findAmountOfRightAnswers(String questionNo, String rightAnswers, String amountOfRightAnswers){
+    public DatabaseReference findAmountOfRightAnswers(String questionNo, String amountOfRightAnswers){
         //Database Reference der tjekker om der er et child-node (af Root) der hedder Questions
         DatabaseReference questions = DB_REF.child("Questions");
 
@@ -59,7 +59,7 @@ public class DB_Connect {
         DatabaseReference question_ = questions.child(questionNo);
 
         //Database Reference der tjekker om der er et child-node (af Question_) der hedder rightAnswers
-        DatabaseReference questRAS = question_.child(rightAnswers);
+        DatabaseReference questRAS = question_.child("rightAnswers");
 
         //Database Reference der tjekker om der er et child-node (af rightAnswers) der hedder AmountOfRightAnswers
         DatabaseReference questAmount = questRAS.child(amountOfRightAnswers);
